@@ -4,3 +4,4 @@
 
 spd = 8
 moveangle = 0
+targetobj = noone

@@ -1,9 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+// Inherit the parent event
+event_inherited();
 
-
-playerdir = 0
-moveangle = 0
-
-spd = 2
+targetobj = obj_enemy

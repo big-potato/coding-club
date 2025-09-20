@@ -7,10 +7,13 @@ move_in_direction(spd,moveangle)
 
 
 
-if collision_circle(x,y,5,obj_enemy,true,false) != noone
+if collision_circle(x,y,5,targetobj,true,false) != noone
 	{
-	var collidedenemy = collision_circle(x,y,5,obj_enemy,true,false)
+	var collidedobj = collision_circle(x,y,5,targetobj,true,false)
 	
 	instance_destroy()
-	instance_destroy(collidedenemy)
+	instance_destroy(collidedobj)
 	}
+	
+if position_meeting(x,y,obj_wall) instance_destroy()
+
