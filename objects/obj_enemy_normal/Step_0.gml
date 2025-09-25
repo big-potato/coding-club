@@ -7,3 +7,5 @@ if instance_exists(obj_player)
 	{
 	moveangle = playerdir
 	}
+
+

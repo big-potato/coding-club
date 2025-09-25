@@ -1,3 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-obj_player.superfasttimer = 600
+obj_player.superfasttimer = 200

@@ -7,3 +7,5 @@ playerdir = 0
 moveangle = 0
 
 spd = 2
+
+avoidsenemies = true

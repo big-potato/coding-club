@@ -12,6 +12,8 @@ if room == rm_main or room == rm_walls
 	{
 	if instance_number(obj_enemy) == 0
 		{
-		room_goto(rm_win)
+		//room_goto(rm_win)
+		youwin = true
 		}
+	if !instance_exists(obj_player) youlose = true
 	}
